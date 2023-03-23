@@ -11,7 +11,7 @@ Los lunes, un precio estándar con descuento de USD 25 para el mismo grupo etari
 Un precio para adultos mayores de USD 20 para personas de 61 años o más (asumimos que la edad máxima de un espectador es de 100 años)
 Un valor de -1 para indicar que el precio no es válido cuando un usuario ingresa una edad fuera de las especificaciones */
 fun main() {
-    val child = 6
+    val child = 7
     val adult = 28
     val senior = 87
 
