@@ -13,7 +13,7 @@ Un valor de -1 para indicar que el precio no es válido cuando un usuario ingres
 fun main() {
     val child = 7
     val adult = 28
-    val senior = 87
+    val senior = 200
 
     val isMonday = true
 
