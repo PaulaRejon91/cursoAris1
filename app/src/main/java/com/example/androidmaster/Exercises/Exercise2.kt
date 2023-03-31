@@ -15,9 +15,9 @@ Un valor de -1 para indicar que el precio no es válido cuando un usuario ingres
 fun main() {
 
     ticketPrice(age, isMonday=true)
-    val child = 7
+    val child = 8
     val adult = 28
-    val senior = 87
+    val senior = 90
 
     val isMonday = true
 

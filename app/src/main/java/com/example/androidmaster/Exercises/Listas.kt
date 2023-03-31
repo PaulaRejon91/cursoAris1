@@ -12,7 +12,7 @@ fun mutableList() {
     println(weekdays)
 
     if (weekdays.isEmpty()) {
-        //no hay que pintar nada porque no hay
+        //no hay que pintar nada porque no hay.
     }else{
     weekdays.forEach{ println(it)}
 
