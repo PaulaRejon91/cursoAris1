@@ -12,7 +12,16 @@
         android:theme="@style/Theme.AndroidMaster"
         tools:targetApi="31">
         <activity
-            android:name=".FirstApp.FisrtAppActivity"
+            android:name=".superheroesapp.SuperHeroListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".imccalculator.ResultIMCActivity"
+            android:exported="true" />
+        <activity
+            android:name=".imccalculator.imcCalculatorActivity"
+            android:exported="true" />
+        <activity
+            android:name=".sintaxis.MenuActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,6 +29,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".FirstApp.ResultActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FirstApp.FisrtAppActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
